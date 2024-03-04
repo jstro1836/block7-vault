@@ -21,7 +21,7 @@ const userMessage = "You have received this message because you have been chosen
 // Creating a popup dialog that alerts the user to open the vault providing the secret codes 10, 40, 39
 alert(userMessage + num1 + "-" + num2 + "-" + num3);
 
-// Assigning an array of num1, num2, num3 to the variable combination to compare against userInput variable
+// Assigning temporal literal of num1, num2, num3 to the variable combination to compare against userInput variable
 const combination = `${num1}-${num2}-${num3}`;
 
 // Creating a window prompt requesting the user to input the secret combination using the XX-XX-XX format
